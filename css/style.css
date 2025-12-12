@@ -1,16 +1,15 @@
 :root {
-    /* New "Synthwave" Color Palette */
-    --bg-color: #0b0c15; /* Deep dark blue-grey */
+    --bg-color: #0b0c15;
     --surface-color: #151621;
     --surface-light: #1f202e;
     
-    --primary-color: #ff2a6d; /* Neon Pink */
+    --primary-color: #ff2a6d;
     --primary-dark: #d41c50;
     
-    --accent-color: #05d9e8; /* Neon Cyan */
+    --accent-color: #05d9e8;
     --accent-dark: #00b8c7;
     
-    --hover-border-color: #fff700; /* Bright Yellow for sharp interaction */
+    --hover-border-color: #fff700;
     
     --text-color: #e0e6ed;
     --text-muted: #949aa3;
@@ -19,13 +18,10 @@
     
     --transition-speed: 0.3s;
     
-    /* Updated Gradients & Glows */
     --gradient-main: linear-gradient(135deg, var(--primary-color), var(--accent-color));
     --gradient-hover: linear-gradient(135deg, var(--accent-color), var(--primary-color));
     
-    /* Matches Pink (#ff2a6d) */
     --glow-primary: 0 0 20px rgba(255, 42, 109, 0.5); 
-    /* Matches Cyan (#05d9e8) */
     --glow-accent: 0 0 20px rgba(5, 217, 232, 0.5); 
 }
 
@@ -43,7 +39,6 @@ body {
     color: var(--text-color);
     line-height: 1.6;
     overflow-x: hidden;
-    /* Updated background pattern to match new theme */
     background-image: 
         radial-gradient(circle at 15% 25%, rgba(255, 42, 109, 0.05) 0%, transparent 45%),
         radial-gradient(circle at 85% 75%, rgba(5, 217, 232, 0.05) 0%, transparent 45%);
